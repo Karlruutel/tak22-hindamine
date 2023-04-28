@@ -1,7 +1,15 @@
 #kontainer {
-    display: block;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
 }
 
 .cat {
-    border: 1px slateblue dotted;
+    background-color: white;
+    padding: 10px;
+}
+
+.cat > div:first-child {
+    font-weight: bold !important; 
 }
