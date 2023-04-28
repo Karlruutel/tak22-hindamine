@@ -16,12 +16,12 @@ fetch('https://catfact.ninja/breeds?limit=100')
       catDiv.innerHTML = `
 
         <div><strong>${cat.breed}</strong></div>
-        
+
         <div>${cat.country}</div>
       `;
 
-      catDiv.style.border = 'none'; // remove border
-
+      catDiv.style.border = 'none'; 
+      
       catsContainer.append(catDiv);
 
       catDiv.style.margin = '5px';
