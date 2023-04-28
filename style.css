@@ -1,15 +1,25 @@
-#kontainer {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    padding: 20px;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 .cat {
-    background-color: white;
-    padding: 10px;
+    border: 1px slateblue dotted;
 }
 
-.cat > div:first-child {
-    font-weight: bold !important; 
+h1 {
+    margin: 10px 30px 30px 5px;
+}
+
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 10px;
+    border: 0;
+}
+
+.cat.breed {
+    border: 1px solid black;
 }
