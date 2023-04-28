@@ -12,7 +12,6 @@ h1 {
     margin: 10px 30px 30px 5px;
 }
 
-
 #container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
